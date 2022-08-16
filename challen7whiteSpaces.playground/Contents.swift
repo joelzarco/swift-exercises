@@ -26,6 +26,7 @@ func condenseSpace(input : String) -> String{
 }
 
 let test1 = " Something  in  the   way she smiles "
+print(test1.replacingOccurrences(of: " ", with: "_"))
 condenseSpace(input: test1)
 
 // solution with regular expressions
