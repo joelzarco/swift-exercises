@@ -19,7 +19,7 @@ func oldSplit(string : String) -> [String]{
     }
     return array
 }
-// hor to remove punctuation characters???
+// how to remove punctuation characters???
 func vowelsAndCons(input : String) -> (Int, Int){
     let vowels = ["a", "e", "i", "o", "u"]
 //    print(input.trimmingCharacters(in: .whitespacesAndNewlines).trimmingCharacters(in: .punctuationCharacters))
