@@ -5,7 +5,6 @@ import Foundation
  If neither number exist return nil
  */
 
-
 func nextHighLow(number : Int) -> (Int?, Int?){
     // convert integer to binary string
     let targetBinary = String(number, radix: 2)
@@ -39,9 +38,9 @@ func nextHighLow(number : Int) -> (Int?, Int?){
             break
         }
     }
-    
     return (nextHighest, nextLowest)
 }
+
 // Stiil need to safely unwrap optionals
 nextHighLow(number: 12)
 nextHighLow(number: 99)
